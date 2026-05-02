@@ -1,8 +1,6 @@
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
 
-#Dado Locado
-
 def show_export():
     st.header("Relatório da Assembleia Geral")
 
