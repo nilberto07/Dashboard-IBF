@@ -1,5 +1,8 @@
 import streamlit as st
 from streamlit_gsheets import GSheetsConnection
+import ssl
+
+ssl._create_default_https_context = ssl._create_stdlib_context
 
 def show_export():
     st.header("Relatório da Assembleia Geral")
