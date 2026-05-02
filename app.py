@@ -2,6 +2,17 @@ import streamlit as st
 from export.page import show_export
 from genres.page import show_genres
 
+color = st.get_option("theme.secondaryBackgroundColor")
+
+st.set_page_config(
+    page_title="Controle Financeiro das Igrejas",
+    page_icon="⛪",
+    #layout="wide", #Tela cheia
+    #initial_sidebar_state="expanded" #Sidebar expandida por padrão
+)
+st.itens_de_menu=["Visão Geral", "Relatório Assembleia Geral", "Mais Informações", "Gêneros de Filmes"]
+
+
 def main():
     st.title("Dashboard Financeiro - IBF")
 
