@@ -10,7 +10,6 @@ st.set_page_config(
     #layout="wide", #Tela cheia
     #initial_sidebar_state="expanded" #Sidebar expandida por padrão
 )
-st.itens_de_menu=["Visão Geral", "Relatório Assembleia Geral", "Mais Informações", "Gêneros de Filmes"]
 
 
 def main():
